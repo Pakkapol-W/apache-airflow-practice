@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets / local config
+.env
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+standalone_admin_password.txt
+webserver_config.py
+
+# Airflow runtime files
+logs/
+*.db
+*.pid
+
+# Accidental Windows-path folder
+C:*/
